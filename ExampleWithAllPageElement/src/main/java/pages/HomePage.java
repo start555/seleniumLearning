@@ -14,17 +14,17 @@ public class HomePage extends PageBase{
     private static final By VACANCIES_SEARCH = Locators.get("vacanciesSearch");
 
 
-    public static boolean checkExpectedElementsWithVarargs(WebDriver driver){
+    public static boolean checkExpectedElementsWithVarargs(WebDriver driver) {
         return checkExpectedElementsWithVarargs(driver, LENTA, COMPANIES, SALARIES, VACANCIES, VACANCIES_SEARCH);
     }
 
 
-    public static boolean checkExpectedElementsWithoutVarargs(WebDriver driver){
-        if (driver.findElement(LENTA).isDisplayed() == true
-                & driver.findElement(COMPANIES).isDisplayed() == true
-                & driver.findElement(SALARIES).isDisplayed() == true
-                & driver.findElement(VACANCIES).isDisplayed() == true
-                & driver.findElement(VACANCIES_SEARCH).isDisplayed() == true);
+    public static boolean checkExpectedElementsWithoutVarargs(WebDriver driver) {
+        if (driver.findElement(LENTA).isDisplayed()
+                & driver.findElement(COMPANIES).isDisplayed()
+                & driver.findElement(SALARIES).isDisplayed()
+                & driver.findElement(VACANCIES).isDisplayed()
+                & driver.findElement(VACANCIES_SEARCH).isDisplayed());
         return true;
     }
 }
