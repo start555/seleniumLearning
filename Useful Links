@@ -1,0 +1,6 @@
+List of links:
+1) BrowserMob Proxy
+    - https://www.youtube.com/watch?v=Skpmd70YD10 (Баранцев, 2014)
+    - https://www.youtube.com/watch?v=l6RWtEEs4KI (Стахиевич, 2014).
+      Время загрузки страницы - разница между (LoadEventEnd-NavigationStart).
+      Время отклика сервера (параметр сервера) - разница между (ResponseStart-RequestStart)
