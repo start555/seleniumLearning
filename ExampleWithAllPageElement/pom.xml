@@ -7,7 +7,7 @@
     <groupId>CheckAllElements</groupId>
     <artifactId>CheckAllElements</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+//homkas-duromkas
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
